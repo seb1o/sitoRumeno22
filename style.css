@@ -143,6 +143,7 @@ height: auto
 }
 .link-m{
     background-color: #0099ff;
+    overflow-y: auto;
     
     
     
@@ -162,6 +163,10 @@ height: auto
    padding-top: 10px;
 }
     
+.divider {
+    border: none; 
+    border-top: 1px solid #ccc; 
+    margin: 20px 0; 
     
     
    
