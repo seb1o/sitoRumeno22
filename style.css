@@ -6,7 +6,7 @@
     "foto-h animazione-h"
     "link-h animazione-h"; 
     background-color: #ffcc00;
-    height: 730px;
+    height: 710px;
 }
 
 @media (max-width: 576px) {
@@ -83,3 +83,85 @@
 .foto-m1{
     grid-area: foto-m1;
 }
+.container-m2{
+    background-color: #660099;
+   
+}
+.container-m3{
+    background-color: #660099;
+    d
+}
+
+
+.container-f1{
+    background-color: #660099;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    max-height: auto;
+    max-width: auto;
+   
+}
+.container-f2{
+    background-color: #FF3333;
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    max-height: auto;
+    max-width: auto;
+  
+}
+.container-f{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+vertical-align: middle;
+grid-template-areas:
+"container-f1 container-f2";
+height: 730px
+ ;}
+
+ .container-pe{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+vertical-align: middle;
+grid-template-areas:
+"foto-pe link-m";
+height: auto
+ ;}
+ 
+ .foto-pe{
+    background-color: #0099ff;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto; 
+    margin-top: auto;
+    
+   
+}
+.link-m{
+    background-color: #0099ff;
+    
+    
+    
+   
+}
+.font-xbig{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 7rem;
+   padding-bottom: 60px;
+}
+.font-nort{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+    
+    
+    
+   
